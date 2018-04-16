@@ -23,4 +23,21 @@ h2{
 h3{
 	font-family:inherit;
 }
+timeline{
+	position:relative;
+	margin: 0 auto;
+}
+
+timeline::after{
+	content:'';
+	position:absolute;
+	width:6px;
+	background-color:#d93343;
+	top:0;
+	bottom:0;
+	left:50%;
+	margin-left:-3px;
+}
+
+
 	
