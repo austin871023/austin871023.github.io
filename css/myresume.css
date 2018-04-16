@@ -44,6 +44,21 @@ timeline-block{
 	background-color: inherit;
 	width:50%;
 }
+/* The circles on the timeline */
+timeline-block::after{
+	content:'';
+	position:absolute;
+	width:25px;
+	height:25px;
+	right:-12px;
+	backgriund-color:whtte;
+	border:4px solid #d93343;
+	top:15px;
+	border-radius:50%;
+	z-index:1;
+}
+	
+		
 
 
 	
