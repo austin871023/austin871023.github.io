@@ -135,13 +135,13 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-  color: inherit !important;
+  color: #d93343 !important;
 }
 
 a {
-  color: inherit;
+  color: #d93343;
 }
 
 a:hover, a:focus, a:active {
-  color: inherit;
+  color: #d93343;
 }
